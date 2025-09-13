@@ -215,21 +215,21 @@ In `System Properties`, I changed the computer name to `Client1` and selected `D
 
 <img width="745" height="521" alt="Lab 108" src="https://github.com/user-attachments/assets/d500ba67-c71a-42ab-819c-9d9118eb63d2" /></br>
 
-<img width="382" height="118" alt="Lab 109" src="https://github.com/user-attachments/assets/be222b97-9232-41c4-b88b-ef68f02f7142" /></br>
+<img width="382" height="118" alt="Lab 109" src="https://i.imgur.com/RW0hf76.png" /></br>
 
 ---
 
 ## 🔑 HOW TO MANUALLY RESET A PASSWORD
 
-To reset a user's password in `Active Directory`, press `Win + R`, type `dsa.msc`, and press Enter to open `Active Directory Users and Computers`. Locate the user account—in this case, `anunez`—by browsing to the appropriate Organizational Unit. Right-click the user and select `Reset Password`.
+To reset a user's password in `Active Directory`, press `Win + R`, type `dsa.msc`, and press Enter to open `Active Directory Users and Computers`. Locate the user account—in this case, `mnunez`—by browsing to the appropriate Organizational Unit. Right-click the user and select `Reset Password`.
 
-<img width="512" height="509" alt="Lab 116" src="https://github.com/user-attachments/assets/6c6f078a-b4d0-4283-a918-3bc202cd1397" /></br>
+<img width="512" height="509" alt="Lab 116" src="https://i.imgur.com/Y8423cV.png" /></br>
 
 Assign an easy-to-remember password `Password1`, check `User must change password at next logon`, and also check `Unlock the user’s account` if it was previously locked. This process restores access while enforcing a secure password update upon next login.
 
 <img width="376" height="254" alt="Lab 117" src="https://github.com/user-attachments/assets/6c9c166a-fe9a-4a72-a582-b96636af8192" /></br>
 
-<img width="315" height="148" alt="Lab 118" src="https://github.com/user-attachments/assets/1ac6a648-e034-4c68-b266-c009acd33517" /></br>
+<img width="315" height="148" alt="Lab 118" src="https://i.imgur.com/CqOUwKe.png" /></br>
 
 ---
 
