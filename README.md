@@ -195,7 +195,7 @@ Powered on the virtual machine and proceeded through the Windows 10 installation
 
 ### Step 3: Confirming `DHCP` Functionality
 
-After setting up `Client1`, I logged in using the `anunez` account with the default credentials for the first time. I then opened a command prompt and ran `ipconfig` to verify network settings. The Ethernet adapter showed the following configuration:
+After setting up `Client1`, I logged in using the `mnunez` account with the default credentials for the first time. I then opened a command prompt and ran `ipconfig` to verify network settings. The Ethernet adapter showed the following configuration:
 
 <img width="538" height="280" alt="Lab 100" src="https://github.com/user-attachments/assets/d3cf4e9c-3cd4-4d3e-8dc2-33f0abed07a9" /></br>
 
@@ -235,19 +235,19 @@ Assign an easy-to-remember password `Password1`, check `User must change passwor
 
 ## HOW TO AUTOMATE PASSWORD RESETS
 
-Password resets can also be automated using `PowerShell`, which is especially useful for bulk or remote management tasks. The following script resets the password for the user `anunez`, enforces a password change at next logon, unlocks the account if it was locked, and ensures the account is enabled:
+Password resets can also be automated using `PowerShell`, which is especially useful for bulk or remote management tasks. The following script resets the password for the user `mnunez`, enforces a password change at next logon, unlocks the account if it was locked, and ensures the account is enabled:
 
 ```powershell
 
 # Reset password
-Set-ADAccountPassword -Identity anunez -Reset -NewPassword (ConvertTo-SecureString "Password1234567890!@" -AsPlainText -Force)
+Set-ADAccountPassword -Identity mnunez -Reset -NewPassword (ConvertTo-SecureString "Password1234567890!@" -AsPlainText -Force)
 
 # Require password change at next logon
-Set-ADUser -Identity anunez -ChangePasswordAtLogon $true
+Set-ADUser -Identity mnunez -ChangePasswordAtLogon $true
 
 # Unlock and enable the account
-Unlock-ADAccount -Identity anunez
-Enable-ADAccount -Identity anunez
+Unlock-ADAccount -Identity mnunez
+Enable-ADAccount -Identity mnunez
 ```
 
 ---
