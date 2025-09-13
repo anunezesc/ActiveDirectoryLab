@@ -98,11 +98,11 @@ After completing the role installation, we proceeded with the `post-deployment c
 
 After logging back into the server, we navigated to `Active Directory Users and Computers` to begin configuring domain objects. We created a new `Organizational Unit` (OU) named `_ADMINS`, and within that OU, added a new user account with the full name `Armando Nunez` and the user logon name `a-anunez`.
 
-<img width="433" height="374" alt="Lab 40" src="https://github.com/user-attachments/assets/051ed52a-ed78-447a-93a8-6a89ad11aa60]" /></br>
+<img width="433" height="374" alt="Lab 40" src="https://i.imgur.com/51rtYVd.png" /></br>
 
 Within `Armando Nunez’` account properties in `Active Directory Users and Computers`, we navigated to the `Member Of` tab and added the user to the `Domain Admins` group. This granted her administrative privileges across the domain. 
 
-<img width="1225" height="763" alt="Lab 45" src="[https://i.imgur.com/dMw9wum.png]" /></br>
+<img width="1225" height="763" alt="Lab 45" src="https://i.imgur.com/dMw9wum.png" /></br>
 
 ---
 
@@ -167,9 +167,10 @@ foreach ($n in $USER_FIRST_LAST_LIST) {
 <img width="748" height="525" alt="Lab 89" src="https://github.com/user-attachments/assets/72a92db7-4552-406a-b0ef-cbb1315af366" /></br>
 
 Before running the script to create all 1,000 users, I tested its functionality by manually inserting my name, `Armando Nunez
-`, as the first entry in the `names.txt` file. After executing the PowerShell script, a total of 1,001 users were created in Active Directory, confirming that the script worked as intended. The test user account `anunez` was successfully generated using the naming convention implemented in the script, verifying that both the account creation logic and OU assignment were functioning properly.
+`, as the first entry in the `names.txt` file. After executing the PowerShell script, a total of 1,001 users were created in Active Directory, confirming that the script worked as intended. The test user account `mnunez` was successfully generated using the naming convention implemented in the script, verifying that both the account creation logic and OU assignment were functioning properly.
 
-<img width="747" height="523" alt="Lab 94" src="https://github.com/user-attachments/assets/dc9c0eef-808a-4fa2-8463-572d78254a4c" /></br>
+<img width="747" height="523" alt="Lab 94" src="https://i.imgur.com/hM6kFcz.png" /></br>
+
 
 ---
 ## 👣 STEP-BY-STEP: SETTING UP THE CLIENT
