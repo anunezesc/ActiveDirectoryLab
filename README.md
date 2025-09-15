@@ -284,4 +284,3 @@ These audits can be analyzed in `Event Viewer` (`Win + R` > `eventvwr.msc`) unde
 
 **Created By:** `Armando Nunez`  
 **Date:** `2025-9-12`  
-**Time:** `15:42 UTC`
